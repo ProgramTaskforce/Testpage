@@ -45,8 +45,10 @@ button {
     color: white;
     border: none;
     padding: 8px 16px;
+    /* makes button bigger */
     font-size: 24px;
     cursor: pointer;
+    /* changes cursor when overhover */
 
 }
 
@@ -64,6 +66,8 @@ li {
     padding-left: 16px;
 }
 
+
+
 .row {
     width: 100%;
     max-width: 1300px;
@@ -71,3 +75,63 @@ li {
     align-items: center;
     justify-content: center;
 }
+
+/* 
+
+ABOUT
+
+*/
+
+#about {
+    /* we named ID about section */
+padding: 48px 0;
+background-color: #f8ffdc;
+}
+
+h2 {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.about__discription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* unten: wir haben das Verhältnis
+von Bild zu Text klar definiert.
+(nur 40% bei Bild oder umgekehrt 
+reicht nicht, muss beides gegeben
+sein. Das Bild war zu klein ohne
+img width 100% */
+
+.about__img--wrapper {
+    width: 40%;
+    padding: 0 24px;
+}
+
+img {
+    width: 100%;
+}
+
+.about__text--wrapper {
+    width: 60%;
+    padding: 0 24px;
+}
+
+.about__text {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+
+}
+
+/* 
+
+DISCORD
+
+*/
+
