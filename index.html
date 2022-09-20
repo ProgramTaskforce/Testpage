@@ -35,66 +35,74 @@
 
 <main>
     <section id="about">
-
         <h2>About</h2>
-        <div class="about__discription">
-            <div class="about__text--wrapper">
-                <p class="about__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
-                    exercitationem sapiente, quos eligendi soluta delectus deserunt eaque
-                    et assumenda eveniet corrupti, maxime ratione? Incidunt optio rem
-                    beatae odio praesentium qui.
-                </p>
-                <p class="about__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
-                    exercitationem sapiente, quos eligendi soluta delectus deserunt eaque
-                    et assumenda eveniet corrupti, maxime ratione? Incidunt optio rem
-                    beatae odio praesentium qui.
-                </p>
+        <div class="row">
+            <div class="about__discription">
+                <div class="about__text--wrapper">
+                    <p class="about__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                        exercitationem sapiente, quos eligendi soluta delectus deserunt eaque
+                        et assumenda eveniet corrupti, maxime ratione? Incidunt optio rem
+                        beatae odio praesentium qui.
+                    </p>
+                    <p class="about__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                        exercitationem sapiente, quos eligendi soluta delectus deserunt eaque
+                        et assumenda eveniet corrupti, maxime ratione? Incidunt optio rem
+                        beatae odio praesentium qui.
+                    </p>
+                </div>
+                <figure class="about__img--wrapper">
+                    <img src="./assets/about.jpg" alt="" />
+                </figure>
             </div>
-            <figure class="about__img--wrapper">
-                <img src="./assets/about.jpg" alt="" />
-            </figure>
         </div>
-    </section>
-    
-    <section id="discord">
-        <h2>Discord</h2>
-        <img src="./assets/discord.png" alt="" />
-        <div>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est maxime
-                quibusdam temporibus beatae. Incidunt, eaque dolorem excepturi ipsam
-                unde, facere expedita reprehenderit ea quaerat necessitatibus
-                voluptatem enim sunt atque sit!
-            </p>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est maxime
-                quibusdam temporibus beatae. Incidunt, eaque dolorem excepturi ipsam
-                unde, facere expedita reprehenderit ea quaerat necessitatibus
-                voluptatem enim sunt atque sit!
-            </p>
-        </div>
-    </section>
+        </section>
+        
+        <section id="discord">
+            <h2>Discord</h2>
+            <div class="row">
+                <div class="about__discription">
+                    <figure class="about__img--wrapper">
+                        <img src="./assets/discord.png" alt="" />
+                    </figure>
+                    <div class="about__text--wrapper">
+                        <p class="about__text">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est maxime
+                            quibusdam temporibus beatae. Incidunt, eaque dolorem excepturi ipsam
+                            unde, facere expedita reprehenderit ea quaerat necessitatibus
+                            voluptatem enim sunt atque sit!
+                        </p>
+                        <p class="about__text">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est maxime
+                            quibusdam temporibus beatae. Incidunt, eaque dolorem excepturi ipsam
+                            unde, facere expedita reprehenderit ea quaerat necessitatibus
+                            voluptatem enim sunt atque sit!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
     
     <section id="contact">
         <h2>Contact</h2>
         <form action="">
             <label for="">Email</label>
-            <input type="text" placeholder="jane@example.com">
+            <input type="email" placeholder="jane@example.com">
             <label for="">Message</label>
-            <textarea type="text" placeholder="jane@example.com"></textarea>
+            <textarea type="text" placeholder="Cool website, lets get connected!"></textarea>
+            <button>Contact Us!</button>
         </form>
     </section>
     </main>
     
     <footer>
-        <img src="./assets/FES.svg" alt="">
-        <div>
-            <a href="#about">About</a>
-            <a href="#discord">Discord</a>
-            <a href="#contact">Contact</a>
-            <a href="">Courses</a>
+        <img class="footer__logo" src="./assets/FES.svg" alt="">
+        <div class="footer__links">
+            <a class="footer_link" href="#discord">Discord</a>
+            <a class="footer_link" href="#contact">Contact</a>
+            <a class="footer_link" href="#about">About</a>
+            <a class="footer_link" href="">Courses</a>
         </div>
         <p>Copyright Frontend Simplified</p>
     </footer>
